@@ -6,7 +6,7 @@ def now():
     return datetime.datetime.now()
 
 def date_to_string(d):
-    return d.strftime('%m/%d/%Y')
+    return d.strftime('%Y-%m-%d')
 
 # Second test: Implement x_squared(...) and then implement def num_to_string(...).
 
